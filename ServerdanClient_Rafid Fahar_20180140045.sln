@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server_Rafid Fahar_20180140045", "ServerdanClient_Rafid Fahar_20180140045\Server_Rafid Fahar_20180140045.csproj", "{D0E8D9CD-15F7-4861-8F44-029C80B76493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client_Rafid Fahar_20180140045", "Client_Rafid Fahar_20180140045\Client_Rafid Fahar_20180140045.csproj", "{10FB4E0C-A590-4985-B89D-0B4664B37647}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0E8D9CD-15F7-4861-8F44-029C80B76493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E8D9CD-15F7-4861-8F44-029C80B76493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E8D9CD-15F7-4861-8F44-029C80B76493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E8D9CD-15F7-4861-8F44-029C80B76493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10FB4E0C-A590-4985-B89D-0B4664B37647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10FB4E0C-A590-4985-B89D-0B4664B37647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10FB4E0C-A590-4985-B89D-0B4664B37647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10FB4E0C-A590-4985-B89D-0B4664B37647}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24EE8A61-B9A9-4DD9-A4AB-F43DFD876F94}
+	EndGlobalSection
+EndGlobal
