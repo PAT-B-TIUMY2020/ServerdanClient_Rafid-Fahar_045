@@ -24,30 +24,27 @@ namespace Client_Rafid_Fahar_20180140045
 
         private void Form1_Load(object sender, EventArgs e)
         {
+           
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int a = Convert.ToInt32(textBox1.Text);
+            int b = Convert.ToInt32(textBox2.Text);
             ServiceReference1.MatematikaClient obj = new ServiceReference1.MatematikaClient();
-            double hasilTambah = obj.Tambah(1, 2);
-            label1.Text = "1 + 2 = " + hasilTambah;
-
-            double hasilKurang = obj.Kurang(3, 2);
-            label2.Text = "3 - 2 = " + hasilKurang;
-
-            double hasilKali = obj.Kali(2, 2);
-            label3.Text = "2 x 2 = " + hasilKali;
-
-            double hasilBagi = obj.Bagi(2, 2);
-            label4.Text = "2 / 2 = " + hasilBagi;
-
-            ServiceReference1.Koordinat a = new ServiceReference1.Koordinat();
-            ServiceReference1.Koordinat b = new ServiceReference1.Koordinat();
-            a.X = 7;
-            a.Y = 8;
-
-            b.X = 5;
-            b.Y = 6;
-            double selisihX = a.X - b.X;
-            double selisihY = a.Y - b.Y;
-            double jarak = Math.Sqrt(Math.Pow(selisihX, 2) + Math.Pow(selisihY, 2));
-            label5.Text = "Hasil Koordinat " + jarak.ToString();
+            double hasilTambah = obj.Tambah(a, b);
+            label3.Text = hasilTambah.ToString();
+            double hasilKurang = obj.Kurang(a, b);
+            label4.Text = hasilKurang.ToString();
+            double hasilKali = obj.Kali(a, b);
+            label5.Text = hasilKali.ToString();
+            double hasilBagi = obj.Bagi(a, b);
+            label6.Text = hasilBagi.ToString();
         }
     }
 }
