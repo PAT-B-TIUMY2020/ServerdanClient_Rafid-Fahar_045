@@ -38,13 +38,13 @@ namespace Client_Rafid_Fahar_20180140045
             int b = Convert.ToInt32(textBox2.Text);
             ServiceReference1.MatematikaClient obj = new ServiceReference1.MatematikaClient();
             double hasilTambah = obj.Tambah(a, b);
-            label3.Text = hasilTambah.ToString();
+            label3.Text = "Hasil Penjumlahan : " + hasilTambah.ToString();
             double hasilKurang = obj.Kurang(a, b);
-            label4.Text = hasilKurang.ToString();
+            label4.Text = "Hasil Pengurangan : " + hasilKurang.ToString();
             double hasilKali = obj.Kali(a, b);
-            label5.Text = hasilKali.ToString();
+            label5.Text = "Hasil Perkalian : " + hasilKali.ToString();
             double hasilBagi = obj.Bagi(a, b);
-            label6.Text = hasilBagi.ToString();
+            label6.Text = "Hasil pembagian : " + hasilBagi.ToString();
         }
     }
 }
